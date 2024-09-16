@@ -13,8 +13,8 @@ public class accountTest {
         acct1.transferTo(acct2, 1000);
 
         //d)
-        System.out.println("Balance of Account 1: " + acct1.getBalance());
-        System.out.println("Balance of Account 2: " + acct2.getBalance());
+        System.out.println("Balance of Account 1 after the transfer: " + acct1.getBalance());
+        System.out.println("Balance of Account 2 after the transfer: " + acct2.getBalance());
 
     }
 }
