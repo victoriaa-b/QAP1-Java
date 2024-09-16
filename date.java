@@ -46,7 +46,7 @@ public class date {
         this.year = year;
     }
 
-// Displays the date in the format "dd/mm/yyyy"
+// Displays the date in the format dd/mm/yyyy
     public String toString(){
         return String.format("%02d/%02d/%04d", day, month, year);
     }
